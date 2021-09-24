@@ -1,1 +1,7 @@
-body { font-family: "Montserrat", sans-serif; background: red; }
+/* Global */
+body { font-family: "Montserrat", sans-serif; }
+
+/* Header */
+.splash { height: 100vh; display: flex; background-image: url("../images/Background_Image.png"); background-position: center center; background-size: cover; background-attachment: fixed; position: relative; }
+
+.splash-inner { margin: auto; max-width: 70%; text-align: center; }

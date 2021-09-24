@@ -2,7 +2,26 @@ $font-main: 'Montserrat', sans-serif;
 $font-one: 'Noto Serif Display', serif;
 $font-two: 'Roboto Slab', serif;
 
+/* Global */
+
 body {
     font-family: $font-main;
-    background: red;
+    }
+
+/* Header */
+
+.splash {
+    height: 100vh;
+    display: flex;
+    background-image: url('../images/Background_Image.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    }
+    
+.splash-inner {
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
     }
