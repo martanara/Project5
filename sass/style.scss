@@ -1,11 +1,70 @@
 $font-main: 'Montserrat', sans-serif;
 $font-one: 'Noto Serif Display', serif;
 $font-two: 'Roboto Slab', serif;
+$font-three: 'Lily Script One', cursive;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-light-gray: #f7f7f7;
+$color-mustard: #fed136;
 
 /* Global */
 
 body {
     font-family: $font-main;
+    }
+
+.container {
+    padding: 30px 0;
+}
+
+h1 {
+    font-family: $font-one;
+    color: $color-white;
+    font-style: italic;
+}
+
+h2 {
+    color: $color-white;
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+
+.navigation .container {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo p {
+    color: $color-mustard;
+    font-family: $font-three;
+    font-size: 26px;
+    line-height: 41px;
+}
+
+.nav-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 14px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
     }
 
 /* Header */
@@ -25,3 +84,53 @@ body {
     max-width: 70%;
     text-align: center;
     }
+
+.btn {
+    color: $color-white;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: $color-mustard;
+    border-radius: 0;
+    display: inline-block;
+    min-width: 240px;
+    text-decoration: none;
+    cursor: pointer;  
+    height: 65px;
+    line-height: 50px;
+    margin-top: 59px;  
+    }
+
+/* Portfolio */
+
+.portfolio {
+    background-color: $color-light-gray;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+.footer li {
+    display: inline-block;
+}
+
+.footer i {
+    color: $color-black;
+    background-color: $color-black;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $color-white;
+    border-radius: 50%;
+}
