@@ -14,14 +14,11 @@ body {
     font-family: $font-main;
 }
 
-.container {
-    padding: 120px 0;
-}
-
 h1 {
     font-family: $font-one;
     color: $color-white;
     font-style: italic;
+    font-size: 40px;
 }
 
 h2 {
@@ -45,7 +42,6 @@ h4 {
     font-style: italic;
     font-size: 20px;
     text-align: center;
-    padding-bottom: 80px;
 }
 
 h5 {
@@ -64,7 +60,6 @@ h5 {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
-    padding: 30px 0;
 }
 
 .logo p {
@@ -156,10 +151,6 @@ h5 {
     padding-bottom: 28px;
 }
 
-.services .col-4 {
-    padding: 0 55px;
-}
-
 /* Portfolio */
 
 .portfolio {
@@ -194,10 +185,6 @@ h5 {
 
 /* Footer */
 
-.footer .container {
-    padding: 50px 0;
-}
-
 .footer p {
     line-height: 60px;
 }
@@ -224,4 +211,23 @@ h5 {
     color: $color-white;
     border-radius: 50%;
     text-align: center;
+}
+
+@media (max-width: 823px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+
+    .nav-list li {
+        display: inline-block;
+        margin: 0 8px;
+    }
+    
+    .nav-list a {
+        font-size: 12px;
+        line-height: 41px;
+    }
 }
