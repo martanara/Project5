@@ -194,8 +194,12 @@ h5 {
 
 /* Footer */
 
-.footer {
-    text-align: center;
+.footer .container {
+    padding: 50px 0;
+}
+
+.footer p {
+    line-height: 60px;
 }
 
 .footer ul {
@@ -207,6 +211,7 @@ h5 {
 
 .footer li {
     display: inline-block;
+    margin-right: 10px;
 }
 
 .footer i {
@@ -218,4 +223,5 @@ h5 {
     line-height: 60px;
     color: $color-white;
     border-radius: 50%;
+    text-align: center;
 }
