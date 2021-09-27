@@ -138,6 +138,27 @@ h5 {
     margin-top: 59px;  
 }
 
+/* Services */
+
+.services p {
+    font-family: $font-two;
+    font-size: 14px;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: $color-text-gray;
+    padding-top: 5px;
+}
+
+.services-icon {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 28px 0;
+}
+
+.services .col-4 {
+    padding: 0 55px;
+}
+
 /* Portfolio */
 
 .portfolio {
