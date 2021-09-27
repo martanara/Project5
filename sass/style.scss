@@ -45,6 +45,7 @@ h4 {
     font-style: italic;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 h5 {
@@ -152,7 +153,7 @@ h5 {
 .services-icon {
     display: flex;
     justify-content: center;
-    padding: 80px 0 28px 0;
+    padding-bottom: 28px;
 }
 
 .services .col-4 {
@@ -164,6 +165,32 @@ h5 {
 .portfolio {
     background-color: $color-light-gray;
 }
+
+.portfolio .card {
+    border: none;
+    margin: 0 5px 50px 5px;
+}
+
+.portfolio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0;
+}
+
+.portfolio .card-body {
+    padding: 30px 0 10px 0;
+}
+
+.portfolio .card-body p {
+    font-family: $font-one;
+    font-style: italic;
+    font-size: 18px;
+    color: $color-text-gray;
+    text-align: center;
+    margin-top: -10px;
+}
+
 
 /* Footer */
 
